@@ -1,0 +1,38 @@
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+  background-color: var(--background-color, #f9f9f9); /* Use theme variables if available */
+  color: var(--text-color, #242424); /* Use theme variables if available */
+  padding: 20px;
+}
+
+.error h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.error p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.error a {
+  display: inline-block;
+  text-decoration: none;
+  color: var(--text-color, #ffffff);
+  background-color: var(--background-color, #646cff);
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.error a:hover {
+  background-color: #535bf2;
+  color: #ffffff;
+}

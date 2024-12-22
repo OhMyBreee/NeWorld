@@ -1,0 +1,47 @@
+:root {
+  --background-color: #f9f9f9; /* Light mode background */
+  --text-color: #242424; /* Light mode text color */
+}
+
+:root[data-theme="dark"] {
+  --background-color: #242424; /* Dark mode background */
+  --text-color: #f9f9f9; /* Dark mode text color */
+}
+
+.country-list {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 20px;
+  text-align: center;
+  min-height: 100vh; /* Ensure it covers the full viewport height */
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.country-list-title {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: var(--text-color); /* Use the text color variable */
+}
+
+.country-item {
+  text-align: center;
+  padding: 10px;
+}
+
+.country-flag {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.country-flag:hover {
+  transform: scale(1.05);
+}
+
+.country-name {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: var(--text-color); /* Use the text color variable */
+}

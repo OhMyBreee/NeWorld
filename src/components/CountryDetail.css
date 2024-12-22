@@ -1,0 +1,76 @@
+/* General Styling */
+.country-detail-container {
+  margin: 2rem auto;
+  padding: 1.5rem;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Light Mode */
+.country-detail-container.light {
+  background-color: #242424;
+  color: #f9f9f9;
+}
+
+/* Dark Mode */
+.country-detail-container.dark {
+  background-color: #d3d3d3;
+  color: #242424;
+}
+
+.country-name {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.country-flag {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 1rem auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.country-info {
+  font-size: 1rem;
+  margin: 1rem 0;
+  line-height: 1.6;
+}
+
+.country-info p {
+  margin: 0.5rem 0;
+}
+
+/* Error and Loading Messages */
+.error-message,
+.loading-message {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+
+/* Map Container */
+.leaflet-container {
+  border-radius: 8px;
+  margin-top: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .country-detail-container {
+    padding: 1rem;
+  }
+
+  .country-name {
+    font-size: 1.5rem;
+  }
+
+  .country-info {
+    font-size: 0.9rem;
+  }
+}

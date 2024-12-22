@@ -1,0 +1,134 @@
+/* Reset and Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  height: 100svh;
+  width: 100svw;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+
+/* Navbar Styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #272727;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  width: 25%;
+  gap: 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav button {
+  background-color: #272727;
+  color: whitesmoke;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Main Content */
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+/* Home Page Styles */
+/* .home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.carousel,
+.grid {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.carousel img,
+.grid img {
+  width: 100px;
+  height: 60px;
+  object-fit: contain;
+  border-radius: 5px;
+}
+
+.country-card img {
+  width: minmax(300px, 20svw);
+} */
+
+/* Country List */
+/* .country-grid {
+  width: 100%;
+  padding: 4svh 3svw;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 90svw));
+  gap: 20px;
+}
+
+.country-grid div {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.country-grid div:hover {
+  transform: scale(1.05);
+} */
+
+/* 
+.country-detail {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.country-detail img {
+  transform: scale(0.001);
+  border-radius: 10px;
+}
+
+footer {
+  background-color: #6200ea;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+} */

@@ -1,0 +1,76 @@
+.neworld {
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  color: var(--button-text);
+}
+
+.container {
+  height: 100%;
+  display: flex; /* Ensure the buttons/links are laid out horizontally */
+  justify-content: space-around;
+  background-color: transparent;
+  outline: none;
+  width: 24svw;
+  gap: 1svw;
+  z-index: 3;
+}
+.nav-button {
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  text-decoration: none; /* Remove underline for links */
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.lord {
+  font-family: "Montserrat", sans-serif;
+}
+
+.dark-mode {
+  --background-color: #e7e7e7;
+  --text-color: #ebebeb;
+  --button-bg: #e7e7e7;
+  --button-text: #000000;
+  --neworld: #e7e7e7;
+}
+
+.light-mode {
+  --background-color: #121212;
+  --text-color: #ffffff;
+  --button-bg: #1a1a1a;
+  --button-text: #ffffff;
+  --neworld: #f9f9f9;
+}
+
+.navbar {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-button {
+  color: var(--text-color);
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.nav-button:hover {
+  color: var(--button-bg);
+}
+
+button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
